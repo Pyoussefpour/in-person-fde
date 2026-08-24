@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Agent</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="call-card">
+      <div class="avatar" aria-hidden="true">A</div>
+      <h1>Voice Agent</h1>
+      <p id="status">Ready to call</p>
+      <p id="model" class="model"></p>
+      <div class="mic-setup">
+        <label for="audio-input">Microphone</label>
+        <select id="audio-input">
+          <option value="">System default</option>
+        </select>
+        <div id="mic-meter" class="mic-meter" role="meter" aria-label="Microphone input level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <span id="mic-level"></span>
+        </div>
+      </div>
+      <time id="timer">00:00</time>
+
+      <section id="transcript" class="transcript" aria-live="polite">
+        <p class="empty">The conversation will appear here.</p>
+      </section>
+
+      <div class="controls">
+        <button id="call" class="call" aria-label="Start call">☎</button>
+      </div>
+      <p id="hint" class="hint">Press the green button to start</p>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
