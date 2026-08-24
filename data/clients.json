@@ -1,0 +1,134 @@
+{
+  "clients": [
+    {
+      "client_id": "client_001",
+      "name": "Maya Chen",
+      "email": "maya.chen@example.com",
+      "open_cases": [
+        {
+          "case_id": "case_1001",
+          "title": "Wrongful dismissal claim",
+          "description": "Maya is challenging a termination she believes occurred after she reported workplace safety concerns.",
+          "status": "Discovery",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_001",
+            "name": "Elena Rodriguez",
+            "email": "elena.rodriguez@example.com"
+          }
+        },
+        {
+          "case_id": "case_1002",
+          "title": "Residential deposit dispute",
+          "description": "Maya is seeking the return of a rental deposit withheld after she moved out of her previous apartment.",
+          "status": "Negotiation",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_002",
+            "name": "Marcus Lee",
+            "email": "marcus.lee@example.com"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "client_002",
+      "name": "Oliver Grant",
+      "email": "oliver.grant@example.com",
+      "open_cases": [
+        {
+          "case_id": "case_1003",
+          "title": "Shareholder agreement review",
+          "description": "Oliver needs a shareholder agreement reviewed before admitting a new partner to his software company.",
+          "status": "Document review",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_003",
+            "name": "Priya Shah",
+            "email": "priya.shah@example.com"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "client_003",
+      "name": "Nadia Patel",
+      "email": "nadia.patel@example.com",
+      "open_cases": [
+        {
+          "case_id": "case_1004",
+          "title": "Parenting arrangement mediation",
+          "description": "Nadia is negotiating a revised parenting schedule and decision-making arrangement with her former spouse.",
+          "status": "Mediation scheduled",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_004",
+            "name": "Daniel Okafor",
+            "email": "daniel.okafor@example.com"
+          }
+        },
+        {
+          "case_id": "case_1005",
+          "title": "Supplier contract breach",
+          "description": "Nadia's catering business alleges that a supplier repeatedly failed to deliver goods required under contract.",
+          "status": "Demand letter sent",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_003",
+            "name": "Priya Shah",
+            "email": "priya.shah@example.com"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "client_004",
+      "name": "Ethan Brooks",
+      "email": "ethan.brooks@example.com",
+      "open_cases": [
+        {
+          "case_id": "case_1006",
+          "title": "Cycling collision injury claim",
+          "description": "Ethan is pursuing compensation for medical expenses and lost income following a collision with a delivery vehicle.",
+          "status": "Medical evidence collection",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_005",
+            "name": "Sofia Kim",
+            "email": "sofia.kim@example.com"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "client_005",
+      "name": "Amina Yusuf",
+      "email": "amina.yusuf@example.com",
+      "open_cases": [
+        {
+          "case_id": "case_1007",
+          "title": "Skilled worker permit application",
+          "description": "Amina requires assistance responding to a document request on her skilled worker permit application.",
+          "status": "Response preparation",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_006",
+            "name": "Gabriel Moreau",
+            "email": "gabriel.moreau@example.com"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "client_006",
+      "name": "Lucas Martin",
+      "email": "lucas.martin@example.com",
+      "open_cases": [
+        {
+          "case_id": "case_1008",
+          "title": "Estate administration",
+          "description": "Lucas is applying to administer his late aunt's estate and needs guidance resolving an unclear beneficiary clause.",
+          "status": "Probate application",
+          "assigned_lawyer": {
+            "lawyer_id": "lawyer_007",
+            "name": "Amelia Wright",
+            "email": "amelia.wright@example.com"
+          }
+        }
+      ]
+    }
+  ]
+}

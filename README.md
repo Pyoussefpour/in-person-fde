@@ -7,6 +7,10 @@ hands-free conversation.
 It does **not** include receptionist logic, lawyers, matters, conflict checking,
 calendars, a database, or a dashboard. Those are the assignment.
 
+The `data/` directory contains two fictional JSON datasets for the database
+portion of the assignment. Client, lawyer, and case details are intentionally
+repeated across the files so they can be normalized into relational tables.
+
 ## Setup
 
 You need Python 3.11+ and a Phonic API key.
@@ -47,6 +51,8 @@ Prompt and configuration changes take effect on the next call.
 
 ```text
 prompts/agent.txt          editable system prompt
+data/clients.json          fictional clients and their open cases
+data/lawyers.json          fictional lawyers and their assigned cases
 voice_agent/config.py      model and voice configuration
 voice_agent/web.py         web server and Phonic session endpoint
 web/                       basic call interface
