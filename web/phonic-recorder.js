@@ -1,0 +1,9 @@
+class PhonicRecorder extends AudioWorkletProcessor {
+  process(inputs) {
+    const input = inputs[0]?.[0];
+    if (input) this.port.postMessage(input.slice());
+    return true;
+  }
+}
+
+registerProcessor("phonic-recorder", PhonicRecorder);
